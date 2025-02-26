@@ -16,5 +16,5 @@ import {FooterComponent} from "./structure/footer/footer.component";
   ]
 })
 export class AppComponent {
-  title = 'MTFrontEnd';
+  title = 'Matchtracker';
 }
