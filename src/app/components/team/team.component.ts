@@ -8,5 +8,4 @@ import {Team} from "../../team.model";
   standalone: true
 })
 export class TeamComponent {
-  teams = input.required<Team>()
 }
