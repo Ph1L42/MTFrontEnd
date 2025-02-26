@@ -9,14 +9,7 @@ import {Team} from "../../team.model";
 export class TeamsService {
   protected httpClient = inject(HttpClient);
 
-/*  loadTeams() {
-    this.http.get<any[]>('assets/bundesliga.json').subscribe(data => {
-      this.teams.set(data);
-    });
-  }*/
-
-
   getTeams(): Signal<Team[]> {
-    return toSignal(this.httpClient.get<Team[]>('https://localhost:8080/assets/bundesliga.json'), {initialValue: []});
+    return toSignal(this.httpClient.get<Team[]>('../assets/bundesliga.json'), {initialValue: []});
   }
 }
