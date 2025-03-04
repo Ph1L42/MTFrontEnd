@@ -12,7 +12,6 @@ import {FooterComponent} from "./structure/footer/footer.component";
     RouterOutlet,
     HeaderComponent,
     FooterComponent
-
   ]
 })
 export class AppComponent {
