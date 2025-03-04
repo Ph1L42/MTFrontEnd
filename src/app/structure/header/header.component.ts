@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {ToolbarModule} from "primeng/toolbar";
 import {ButtonModule} from "primeng/button";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,8 @@ import {ButtonModule} from "primeng/button";
   styleUrl: './header.component.css',
   imports: [
     ToolbarModule,
-    ButtonModule
+    ButtonModule,
+    RouterLink
   ],
   standalone: true
 })

@@ -1,5 +1,5 @@
 import {Component, input} from '@angular/core';
-import {Team} from "../../team.model";
+import {TeamModel} from "./team.model";
 
 @Component({
   selector: 'app-team',
@@ -8,4 +8,5 @@ import {Team} from "../../team.model";
   standalone: true
 })
 export class TeamComponent {
+  teams = input.required<TeamModel>()
 }

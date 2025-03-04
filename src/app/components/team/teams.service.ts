@@ -1,7 +1,7 @@
 import {inject, Injectable, Signal} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {toSignal} from "@angular/core/rxjs-interop";
-import {Team} from "../../team.model";
+import {TeamModel} from "./team.model";
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ import {Team} from "../../team.model";
 export class TeamsService {
   protected httpClient = inject(HttpClient);
 
-  getTeams(): Signal<Team[]> {
-    return toSignal(this.httpClient.get<Team[]>('../assets/bundesliga.json'), {initialValue: []});
+  getTeams(): Signal<TeamModel[]> {
+    return toSignal(this.httpClient.get<TeamModel[]>('../assets/bundesliga.json'), {initialValue: []});
   }
 }

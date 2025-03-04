@@ -1,2 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
+
+.table-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.p-datatable {
+  font-size: 14px;
+}
+
+.p-datatable-header {
+  font-size: 16px;
+  text-align: center;
+}
+
+.p-datatable th {
+  text-align: center;
+  font-weight: bold;
+}
+
+.p-datatable td {
+  text-align: center;
+}
+
+.p-datatable-caption {
+  font-size: 18px;
+  font-weight: bold;
+}

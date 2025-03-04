@@ -1,16 +1,1 @@
-<p-table [value]="team()" [rows]="20" responsiveLayout="scroll">
-  <ng-template pTemplate="header">
-    <tr>
-      <th id="labelName">Name</th>
-      <th id="labelCountry">Country</th>
-      <th id="labelLeague">League</th>
-    </tr>
-  </ng-template>
-  <ng-template pTemplate="body" let-team>
-    <tr>
-      <td>{{ team.name }}</td>
-      <td>{{ team.country }}</td>
-      <td>{{ team.league }}</td>
-    </tr>
-  </ng-template>
-</p-table>
+<p-button [routerLink]="'/teams'">Bundesliga</p-button>
