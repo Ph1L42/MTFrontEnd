@@ -13,6 +13,9 @@
 .p-datatable-header {
   font-size: 16px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .p-datatable th {

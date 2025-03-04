@@ -3,15 +3,15 @@
     <ng-template pTemplate="caption" #caption>
       <div class="flex align-items-center justify-content-between">
         <span>Teams</span>
-        <p-button>Add Team</p-button>
       </div>
+      <p-button>Add Team</p-button>
     </ng-template>
     <ng-template pTemplate="header" #header>
       <tr>
-        <th pSortableColumn="name" id="labelName" style="width:30%">Name</th>
-        <th pSortableColumn="country" id="labelCountry" style="width:30%">Country</th>
-        <th pSortableColumn="league" id="labelLeague" style="width:30%">League</th>
-        <th style="width: 10%"> </th>
+        <th pSortableColumn="name" id="labelName" style="width:20rem">Name</th>
+        <th pSortableColumn="country" id="labelCountry"style="width:20rem">Country</th>
+        <th pSortableColumn="league" id="labelLeague" style="width:20rem">League</th>
+        <th style="width:10rem"> </th>
       </tr>
     </ng-template>
     <ng-template pTemplate="body" let-team #body>
