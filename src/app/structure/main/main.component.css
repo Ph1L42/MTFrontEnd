@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60rem;
+}
+
+.left-cards {
+
+}
+
+.right-cards {
+  
+}
