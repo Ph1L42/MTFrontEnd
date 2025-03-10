@@ -1,13 +1,13 @@
 .custom-table {
-  max-width: 70%;   /* Begrenzung der Breite */
-  margin: 0 auto;   /* Zentriert die Tabelle */
-  display: block;   /* Hilft bei der korrekten Darstellung */
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
 }
 
 .p-datatable {
-  text-align: center; /* Zentriert Tabelleninhalt */
+  text-align: center;
 }
 
 .p-datatable th, .p-datatable td {
-  text-align: center; /* Zentriert Überschriften und Zellen */
+  text-align: center;
 }
